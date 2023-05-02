@@ -7,7 +7,7 @@ votes = [0] * len(uniqueCand)
                                                             
 votes = [0] * len(uniqueCand)
     for i in range(len(candidates)):
-        if candidates[i] in uniqueCand:
+        if candidates[i] in uniqueCand:     
             index = uniqueCand.index(candidates[i])
             votes[index] += 1                                   
             
